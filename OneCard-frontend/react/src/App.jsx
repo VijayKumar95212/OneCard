@@ -25,22 +25,22 @@ function App() {
     <BrowserRouter>
       <Navbar/>
       <Routes>
-        <Route path="/" element={<ProtectRouting> <Shop /></ProtectRouting>} />
+        <Route path="/" element={<Shop />} />
         <Route
           path="/mens"
-          element={<ProtectRouting><ShopCategory banner={men_banner} category="men" /></ProtectRouting>}
+          element={<ShopCategory banner={men_banner} category="men" />}
         />
         <Route
           path="/womens"
-          element={<ProtectRouting><ShopCategory banner={women_banner} category="women" /></ProtectRouting>}
+          element={<ShopCategory banner={women_banner} category="women" />}
         />
         <Route
           path="/kids"
-          element={<ProtectRouting><ShopCategory banner={kid_banner} category="kid" /></ProtectRouting>}
+          element={<ShopCategory banner={kid_banner} category="kid" />}
         />
-        <Route path="/product" element={<ProtectRouting><Product /></ProtectRouting> }/>
-        <Route path="/product/:productId" element={<ProtectRouting><Product /></ProtectRouting>}/> 
-        <Route path="/cart" element={<ProtectRouting><Cart /></ProtectRouting>} />
+        <Route path="/product" element={<Product />}/>
+        <Route path="/product/:productId" element={<Product />}/> 
+        <Route path="/cart" element={<Cart />} />
         <Route path="/userprofile" element={<UserProfile/>} />
         <Route path="/login" element={<LoginSignup />} />
         <Route path="/admin" element={<Admin/>}/>
