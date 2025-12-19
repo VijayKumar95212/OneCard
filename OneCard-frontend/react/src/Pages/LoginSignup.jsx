@@ -130,13 +130,13 @@ const navigate = useNavigate();
           />
 
             
-          {/* <input
+      <input
             type="text"
             name="role"
             placeholder="Role"
             value={formData.role}
             onChange={handleChange}
-          /> */}
+          /> 
         </div>
 
         <button onClick={handleSubmit}>Continue</button>
