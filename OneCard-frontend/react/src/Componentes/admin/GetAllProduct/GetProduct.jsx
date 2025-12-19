@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import "./GetProduct.css";
+import "./Getproduct.css";
 import { Link } from "react-router-dom";
 
 const GetProduct = () => {
