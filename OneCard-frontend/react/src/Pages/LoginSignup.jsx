@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from "axios";
 import {baseUrlFun} from "../Base-url"
-import './Css/LoginSignup.css';
+import './Css/Loginsignup.css';
 import { useNavigate } from 'react-router-dom';
 
 const Base_url = baseUrlFun();
